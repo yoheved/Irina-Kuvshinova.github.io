@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our HTML course</title>
+</head>
+<body>
+       <h1>Why learn HTML?</h1>
+       <hr/>
+       <p>Every webpage you look at is written in a language called <b>HTML</b>.<br/>
+       You can think of HTML as the skeleton that gives every webpage structure.<br/>
+           In this course, we'll use HTML to add <i>paragraphs, headings, images and links to a webpage.</i><br/>
+           HTML stands for HyperText Markup Language. Hypertext means <s>"text with links in it."</s><br/>
+    Any time you click on a word that brings you to a new webpage, you've clicked on <u>hypertext!</u></p>
+<div align="right">
+    A markup language is a programming language used to make text do more than just sit on a page.
+    It can turn text into images, links, tables, lists, and much more. HTML is the markup language we'll be learning.
+       </div>
+<div align="center">
+    What makes webpages pretty? That's CSS—Cascading Style Sheets.
+    Think of it like skin and makeup that covers the bones of HTML. We'll learn HTML first, then worry about CSS in later courses.
+</div>
+       <div align="justify">
+           The first thing we should do is set up the skeleton of the page.
 
+           a. Always put <!DOCTYPE html> on the first line. This tells the browser what language it's reading (in this case, HTML).
+           b. Always put <html> on the next line. This starts the HTML document.
+       c. Always put </html> on the last line. This ends the HTML document.
+       </div>
+</body>
+</html>
