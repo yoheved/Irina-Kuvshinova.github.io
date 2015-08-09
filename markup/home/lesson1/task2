@@ -3,15 +3,15 @@
 <p>
     <meta charset="UTF-8">
     <title>Pictures</title>
-    <img src="200.jpg" alt="ubuntu" width="400" height="200"/>
-    <img src="200.jpg" alt="ubuntu" width="200" height="300"/>
-    <img src="200.jpg" alt="ubuntu" height="500"/>
-    <img src="200.jpg" alt="ubuntu" width="400" align="middle" hspace="500"/>
+    <img src="http://lorempixel.com/400/200" alt="1" width="400" height="200"/>
+    <img src="http://lorempixel.com/400/200" alt="2" width="200" height="300"/>
+    <img src="http://lorempixel.com/400/200" alt="3" height="500"/>
+    <img src="http://lorempixel.com/400/200" alt="4" width="400" align="middle" hspace="500"/>
 <p>
     Ubuntu (originally /ʊˈbuːntʊ/ uu-BOON-tuu, according to the company website /ʊˈbʊntuː/ uu-BUUN-too)
     is a Debian-based Linux operating system and distribution,
     with Unity as its default desktop environment for personal computers including smartphones in later versions.
-    <img src="200.jpg"alt="ubuntu"
+    <img src="http://lorempixel.com/400/200"alt="5"
             width="400" height="200" align="middle"/>
     Ubuntu also runs network servers. It is based on free software and named after the Southern African philosophy of ubuntu
     (literally, "human-ness"), which often is translated as "humanity towards others" or
@@ -23,7 +23,7 @@
     Because duplicity uses GnuPG to encrypt and/or sign these archives, they will be safe from spying and/or modification
     by the server.Duplicity implements a traditional backup scheme, where the initial archive contains all information (full backup)
     and in the future only the changed information is added.
-    <img src="200.jpg"alt="ubuntu" width="400" height="200" align="left" hspace="30" vspace="30"/>
+    <img src="http://lorempixel.com/400/200"alt="6" width="400" height="200" align="left" hspace="30" vspace="30"/>
     However, here are some advantages it may have over other similar solutions:
     Easy to use: Although duplicity is a command-line utility, the semantics are relative simply.
     To take a basic example, this command:
@@ -40,7 +40,7 @@
     For instance, if a long log file increases by just a few lines of text, a small diff will be sent to and saved in the archive.
     Other backup programs may save a complete copy of the file.
     Standard file format: Athough archive data will be encrypted, inside it is in standard GNU-tar format archives
-    <img src="200.jpg"alt="ubuntu" width="400" height="200" align="right" hspace="30" vspace="30"/>
+    <img src="http://lorempixel.com/400/200"alt="7" width="400" height="200" align="right" hspace="30" vspace="30"/>
     A full backup contains normal tarballs, and incremental backups are tar archives of new files and the deltas from previous backups.
     The deltas are in the format produced by librsync's command-line utility rdiff.
     Although you should never have to look at a duplicity archive manually,
@@ -50,9 +50,5 @@
     Besides increasing choice for the user, it can make a server more secure, as clients only require minimal access.
 
 </p>
-
 </head>
 <body>
-
-</body>
-</html>
