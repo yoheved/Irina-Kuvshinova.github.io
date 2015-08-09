@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<p>
+    <meta charset="UTF-8">
+    <title>Pictures</title>
+    <img src="200.jpg" alt="ubuntu" width="400" height="200"/>
+    <img src="200.jpg" alt="ubuntu" width="200" height="300"/>
+    <img src="200.jpg" alt="ubuntu" height="500"/>
+    <img src="200.jpg" alt="ubuntu" width="400" align="middle" hspace="500"/>
+<p>
+    Ubuntu (originally /ʊˈbuːntʊ/ uu-BOON-tuu, according to the company website /ʊˈbʊntuː/ uu-BUUN-too)
+    is a Debian-based Linux operating system and distribution,
+    with Unity as its default desktop environment for personal computers including smartphones in later versions.
+    <img src="200.jpg"alt="ubuntu"
+            width="400" height="200" align="middle"/>
+    Ubuntu also runs network servers. It is based on free software and named after the Southern African philosophy of ubuntu
+    (literally, "human-ness"), which often is translated as "humanity towards others" or
+    "the belief in a universal bond of sharing that connects all humanity".</p>
+<p>
+    Duplicity backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server.
+    Because duplicity uses librsync, the incremental archives are space efficient and
+    only record the parts of files that have changed since the last backup.
+    Because duplicity uses GnuPG to encrypt and/or sign these archives, they will be safe from spying and/or modification
+    by the server.Duplicity implements a traditional backup scheme, where the initial archive contains all information (full backup)
+    and in the future only the changed information is added.
+    <img src="200.jpg"alt="ubuntu" width="400" height="200" align="left" hspace="30" vspace="30"/>
+    However, here are some advantages it may have over other similar solutions:
+    Easy to use: Although duplicity is a command-line utility, the semantics are relative simply.
+    To take a basic example, this command:
+    duplicity /usr scp://host.net/target_dir
+    backs up the /usr directory to the remost host host.net via scp.
+    Encrypted and signed archives: The archives that duplicity produces can be encrypted and signed using GnuPG,
+    the standard for free software cryptology.
+    The remote location will not be able to infer much about the backups other than their size and when they are uploaded.
+    Also, if the archives are modified on the remote side, this will be detected when restoring.
+</p>
+<p>
+    Bandwidth and space efficient:
+    Duplicity uses the rsync algorithm so only the changed parts of files are sent to the archive when doing an incremental backup.
+    For instance, if a long log file increases by just a few lines of text, a small diff will be sent to and saved in the archive.
+    Other backup programs may save a complete copy of the file.
+    Standard file format: Athough archive data will be encrypted, inside it is in standard GNU-tar format archives
+    <img src="200.jpg"alt="ubuntu" width="400" height="200" align="right" hspace="30" vspace="30"/>
+    A full backup contains normal tarballs, and incremental backups are tar archives of new files and the deltas from previous backups.
+    The deltas are in the format produced by librsync's command-line utility rdiff.
+    Although you should never have to look at a duplicity archive manually,
+    if the need should arise they can be produced and processed using GnuPG, rdiff, and tar.
+    Choice of remote protocol: Duplicity does not make many demands on its archive server.
+    As long as files can be saved to, read from, listed, and deleted from a location, that location can be used as a duplicity backend.
+    Besides increasing choice for the user, it can make a server more secure, as clients only require minimal access.
+
+</p>
+
+</head>
+<body>
+
+</body>
+</html>
