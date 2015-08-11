@@ -6,7 +6,9 @@
     <img src="http://lorempixel.com/400/200" alt="1" width="400" height="200"/>
     <img src="http://lorempixel.com/400/200" alt="2" width="200" height="300"/>
     <img src="http://lorempixel.com/400/200" alt="3" height="500"/>
-    <img src="http://lorempixel.com/400/200" alt="4" width="400" align="middle" hspace="500"/>
+     <p align="center">
+    <img src="http://lorempixel.com/400/200" alt="4" width="400"/>
+</p>
 <p>
     Ubuntu (originally /ʊˈbuːntʊ/ uu-BOON-tuu, according to the company website /ʊˈbʊntuː/ uu-BUUN-too)
     is a Debian-based Linux operating system and distribution,
