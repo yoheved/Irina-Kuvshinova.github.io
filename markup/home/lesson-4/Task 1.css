@@ -1,20 +1,21 @@
-div {
-    display: inline-block;
-    background: blueviolet;
-    width:100%;
+div{
+  background:blueviolet;
 }
-a {
-    padding-left:40px;
-    padding-right:40px;
-    width:900px;
-    color:white;
-    font-family:impact, monospace;
-    font-size: 30px;
-    font-variant: small-caps;
-    text-decoration:none;}
-a:hover{background:#cccccc;
-    color:darkgrey;}
+.container{width:900px;
+}
 
-
-
-
+ul li {display:inline-block;
+  padding-left:15px;
+  padding-right:10px;
+  }
+span {
+  font-family:impact;
+  font-variant:small-caps;
+  font-size:25pt;
+  color:white;}
+a{text-decoration:none;
+}
+span:hover{
+  background:lightgrey;
+  color:grey;}
+                        
