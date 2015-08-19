@@ -2,6 +2,7 @@ div{
   background:blueviolet;
 }
 .container{width:900px;
+margin:auto;
 }
 
 ul li {display:inline-block;
