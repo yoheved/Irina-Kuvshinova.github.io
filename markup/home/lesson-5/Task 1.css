@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    background: #1e90FF;
+}
+
+ul li {
+    display: inline-block;
+    position: static;
+    padding-right: 25px;
+    padding-left: 10px;
+    font-family: impact;
+    font-variant: small-caps;
+    font-size: 20pt;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #eee;
+    color: #a0a0a0;
+}
+
+li ul {
+    display: none;
+    position: absolute;
+    top: 53px;
+    left: 8px;
+    width: 100%;
+    background-color: #eee;
+}
+
+li ul li a {
+    background-color: #eee;
+    color: #898aa9;
+    font-family:Arial, sans-serif;
+    font-size:15px;
+    font-variant:normal;
+}
+
+li:hover ul {
+    display: block;
+}
