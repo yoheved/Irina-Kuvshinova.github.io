@@ -20,11 +20,12 @@
     width: 283px;
     margin-left: 3px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .price {
     font-size: 55pt;
-    margin-top: -75px;
+    margin-top: -50px;
     margin-left: -15px;
     font-weight: bold;
 }
