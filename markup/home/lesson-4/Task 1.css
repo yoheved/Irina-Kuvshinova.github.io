@@ -1,0 +1,22 @@
+div{
+  background:blueviolet;
+}
+.container{width:900px;
+margin:auto;
+}
+
+ul li {display:inline-block;
+  padding-left:15px;
+  padding-right:10px;
+  }
+span {
+  font-family:impact;
+  font-variant:small-caps;
+  font-size:25pt;
+  color:white;}
+a{text-decoration:none;
+}
+span:hover{
+  background:lightgrey;
+  color:grey;}
+                        
