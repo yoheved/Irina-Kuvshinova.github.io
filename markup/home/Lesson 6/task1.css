@@ -37,6 +37,7 @@
 .price {
     font-size: 55pt;
     padding-top: 5px;
+    margin-top:-60px;
     margin-left: -15px;
     font-weight: bold;
 }
