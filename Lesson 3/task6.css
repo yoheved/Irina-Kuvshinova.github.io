@@ -1,0 +1,11 @@
+label[for="red"]{color:red;}
+label[for="green"]{color:green;}
+label[for="blue"]{color:blue;}
+label{text-decoration:underline;}
+span{display:inline-block;padding:3px;}
+.red{color:white;background:red;border-radius:6px;display:none;}
+.green{color:white;background:green;border-radius:6px;display:none;}
+.blue{color:white;background:blue;border-radius:6px;display:none;}
+#red:checked ~ .red{display:inline-block;}
+#green:checked ~ .green{display:inline-block;}
+#blue:checked ~ .blue{display:inline-block;}

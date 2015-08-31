@@ -1,0 +1,18 @@
+<style>
+h1{
+    color: orange;
+    text-align: right;
+}
+p:first-letter{color:red;}
+em {color:white;  background:green;}
+#allotment h2{color:orange}
+.plants-list ul li{font-weight:bold;}
+.plants-list ol li{font-weight:normal;}
+.fruits-list{color:grey;}
+.vegetables-list{color:red;}
+#warehouse h2{color:blue;}
+#warehouse .fruits-list li{color:green; }
+thead {font-weight:bold;text-align:center;}
+tbody tr td:first-child{color:orange; text-align:left;font-weight:bold;}
+tbody tr td:not(:first-child){background:green;color:white;text-align:center;}
+</style>

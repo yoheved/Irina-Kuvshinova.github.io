@@ -1,0 +1,24 @@
+.container{width:100%;
+    margin:auto;}
+ul{
+    background:white;
+}
+ul li {
+    display:inline-block;
+    padding-left:5px;
+    font-variant:small-caps;
+    font-size:10pt;}
+.border{border-style:solid;
+    border-radius:6px;
+    border-width:thin;
+    border-color:lightgrey;}
+a.border{padding-top:1px;
+    padding-bottom:1px;
+    padding-left:5px;
+    padding-right:5px;
+}
+a{
+    text-decoration:none;
+    color:blueviolet;}
+a:hover{background:blueviolet;
+    color:white;}
