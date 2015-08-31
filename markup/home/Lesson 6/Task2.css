@@ -1,0 +1,78 @@
+.container {
+    width: 1400px;
+    background-image: url("Task62.png");
+    background-repeat: repeat-x;
+}
+
+h1 {
+    text-align: center;
+    color: #3170a8;
+    font-family: "Trebuchet Ms", sans-serif;
+    font-variant: small-caps;
+    font-size: 40pt;
+}
+
+#first {
+    color: #ee8129;
+}
+
+.Feed1,
+.Feed2,
+.contant1,
+.contant2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.contant1,
+.contant2 {
+    width: 380px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+    background-color: white;
+    border: 1px solid;
+    border-color: lightgrey;
+}
+.contant2::before{content: url("Arrow.png");
+    margin-left: -20px;
+    margin-top: 60px;
+}
+.contant1::before{content: url("Arrow.png");
+margin-left: -20px;
+    margin-top:40px;
+}
+header {
+    border-bottom: 1px dashed;
+    border-color: lightgrey;
+    overflow: auto;
+}
+
+.flleft {
+    float: left;
+    color: #3170a8;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet Ms", sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.flright {
+    float: right;
+    color: #3170a8;
+    margin-right: 10px;
+    font-family: "Trebuchet Ms", sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+p {
+    text-align: left;
+    padding-left: 5px;
+    font-size: 11pt;
+    font-family: "Trebuchet Ms", sans-serif;
+    color: grey;
+}
