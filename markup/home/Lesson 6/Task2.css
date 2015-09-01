@@ -15,25 +15,30 @@ h1 {
 #first {
     color: #ee8129;
 }
+.Feed1,.Feed2{display: inline-block;}
+.Feed1{overflow: auto;
+margin-left: 150px;}
+.img1{float:left;}
+.contant1{float: right;}
+.Feed2{overflow: auto;}
+.img2{float: left;}
+.contant2{float: right;}
 
-.Feed1,
-.Feed2,
-.contant1,
-.contant2 {
-    display: inline-block;
-    margin-left: 90px;
-}
-
-.contant1,
-.contant2 {
+.contant1,.contant2{
     width: 380px;
     margin-left: 20px;
     margin-right: 40px;
     margin-bottom: 50px;
-    margin-top: -20px;
     background-color: white;
     border: 1px solid;
     border-color: lightgrey;
+}
+.contant1::before {
+    content: url("Arrow.png");
+    display: block;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 30px;
 }
 .contant2::before {
     content: url("Arrow.png");
@@ -43,13 +48,8 @@ h1 {
     margin-top: 30px;
 }
 
-.contant1::before{content: url("Arrow.png");
-display: block;
-    position: absolute;
-    margin-left: -16px;
-    margin-top: 30px;
-}
 header {
+    padding-top: 10px;
     border-bottom: 1px dashed;
     border-color: lightgrey;
     overflow: auto;
