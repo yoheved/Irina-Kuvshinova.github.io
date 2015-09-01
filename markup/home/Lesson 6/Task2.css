@@ -21,28 +21,33 @@ h1 {
 .contant1,
 .contant2 {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 90px;
 }
 
 .contant1,
 .contant2 {
     width: 380px;
-    padding-top: 20px;
     margin-left: 20px;
     margin-right: 40px;
     margin-bottom: 50px;
-    position: relative;
+    margin-top: -20px;
     background-color: white;
     border: 1px solid;
     border-color: lightgrey;
 }
-.contant2::before{content: url("Arrow.png");
-    margin-left: -20px;
-    margin-top: 60px;
+.contant2::before {
+    content: url("Arrow.png");
+    display: block;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 30px;
 }
+
 .contant1::before{content: url("Arrow.png");
-margin-left: -20px;
-    margin-top:40px;
+display: block;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 30px;
 }
 header {
     border-bottom: 1px dashed;
